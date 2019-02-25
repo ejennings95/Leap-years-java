@@ -11,4 +11,9 @@ class LeapYearsTest {
         assertEquals("It is not a leap year", leapyears.year(2019));
     }
 
+    @Test
+    void testTwo() {
+        assertEquals("It is a leap year", leapyears.year(2020));
+    }
+
 }
